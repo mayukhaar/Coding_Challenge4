@@ -37,6 +37,8 @@ if question_1 == "a" or question_1 == "A":
         elif question_3 == "b" or question_3 == "B":
              print("That's great, summer is amazing.")
              print(str("Points: ") + str(points) + 4)
+        else:
+            print("Invalid response.")
     elif question_2 == "b" or question_2 == "B":
         print("Yay!!")
         print("This is Bob's friend Freddie: (~˘▾˘)~")
@@ -54,6 +56,10 @@ if question_1 == "a" or question_1 == "A":
         elif question_3 == "b" or question_3 == "B":
             print("That's great, summer is amazing.")
             print(str("Points: ") + str(points + 5))
+        else:
+            print("Invalid response.")
+    else:
+        print("Invalid response.")
 elif question_1 == "b" or question_1 == "B":
     no = "a) No thanks. I don't really feel like meeting Sally's buddies.\n"
     yes = "b) Sure, I would love to meet more people like Sally!"
@@ -78,6 +84,8 @@ elif question_1 == "b" or question_1 == "B":
         elif question_3 == "b" or question_3 == "B":
             print("That's great, summer is amazing.")
             print(str("Points: ") + str(points + 4))
+        else:
+            print("Invalid response.")
     elif question_2 == "b" or question_2 == "B":
         print("Yay!!")
         print("This is Sally's sister Marcy: (◕‿◕✿) .")
@@ -95,7 +103,12 @@ elif question_1 == "b" or question_1 == "B":
         elif question_3 == "b" or question_3 == "B":
             print("That's great, summer is amazing.")
             print(str("Points: ") + str(points + 6))
+        else:
+            print("Invalid response.")
+    else:
+        print("Invalid response.")
 
+else:
+    print("Invalid response.")
 
-#Things still needed to do: -create a point system
-#-invalid
+#Things still needed to do: -invalid
