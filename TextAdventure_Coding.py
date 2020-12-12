@@ -1,6 +1,8 @@
 print("Hello there.")
 name = input("What's your name?~ ")
+chr_inv = "Character Inventory: "
 print("Hello " + str(name) + "!")
+print(str(chr_inv) + str(name))
 print("What type of colors do you like?")
 cool = "a) I like cool colors!\n"
 warm = "b) I like warm colors!"
@@ -11,6 +13,7 @@ question_1 = input("a or b: ")
 if question_1 == "a" or question_1 == "A":
     print("That's great!")
     print("This is Bob: ◉_◉ . He likes cool colors too.")
+    print(str(chr_inv) + str(name) + str(", Bob"))
     print("Do you want to meet more characters like Bob?")
     no_thx = "a) No thanks. I don't really feel like meeting Bob's buddies.\n"
     character = "b) Sure, I would love to meet more characters!"
@@ -32,6 +35,7 @@ if question_1 == "a" or question_1 == "A":
         print("Yay!!")
         print("This is Bob's friend Freddie: (~˘▾˘)~")
         print("And this is Daisy: \ (•◡•) /")
+        print(str(chr_inv) + str(name) + str(", Bob") + str(", Freddie") + str(", Daisy"))
         winter = "a) I like the winter months. \n"
         summer = "b) I like the summer months."
         print("Do you prefer the summer or winter months?")
@@ -46,6 +50,7 @@ elif question_1 == "b" or question_1 == "B":
     yes = "b) Sure, I would love to meet more people like Sally!"
     print("That's great!")
     print("This is Sally: (｡◕‿◕｡) .She likes warm colors too.")
+    print(str(chr_inv) + str(name) + str(", Sally"))
     print("Do you want to meet more characters like Sally?")
     print(str(no) + str(yes))
     question_2 = input("a or b:")
@@ -64,6 +69,7 @@ elif question_1 == "b" or question_1 == "B":
         print("Yay!!")
         print("This is Sally's sister Marcy: (◕‿◕✿) .")
         print("And this is Sally's best friend Tim: (─‿‿─) .")
+        print(str(chr_inv) + str(name) + str(", Sally") + str(", Marcy") + str(", Tim"))
         print("Do you prefer the summer or winter months?")
         winter = "a) I like the winter months. \n"
         summer = "b) I like the summer months"
