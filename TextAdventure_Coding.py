@@ -10,8 +10,6 @@ cool = "a) I like cool colors!\n"
 warm = "b) I like warm colors!"
 print(str(cool) + str(warm))
 question_1 = input("a or b: ")
-#print(str(cool) + str(warm))
-
 if question_1 == "a" or question_1 == "A":
     print("That's great!")
     print("This is Bob: ◉_◉ . He likes cool colors too.")
@@ -107,8 +105,5 @@ elif question_1 == "b" or question_1 == "B":
             print("Invalid response.")
     else:
         print("Invalid response.")
-
 else:
     print("Invalid response.")
-
-#Things still needed to do: -invalid
