@@ -71,9 +71,13 @@ if question_1 == "a" or question_1 == "A":
         if question_3 == "a" or question_3 == "A":
             print("Cool. Happy winter!!")
             print(str("Points: ") + str(points + 5))
+            enjoy = input("Did you enjoy playing?")
+            print("Great! Have a nice day!")
         elif question_3 == "b" or question_3 == "B":
             print("That's great, summer is amazing.")
             print(str("Points: ") + str(points + 5))
+            enjoy = input("Did you enjoy playing?")
+            print("Great! Have a nice day!")
         else:
             print("Sorry, I don't understand that. Please try again.")
     else:
@@ -109,9 +113,13 @@ elif question_1 == "b" or question_1 == "B":
         if question_3 == "a" or question_3 == "A":
             print("Cool. Happy winter!!")
             print(str("Points: ") + str(points + 4))
+            enjoy = input("Did you enjoy playing?")
+            print("Great! Have a nice day!")
         elif question_3 == "b" or question_3 == "B":
             print("That's great, summer is amazing.")
             print(str("Points: ") + str(points + 4))
+            enjoy = input("Did you enjoy playing?")
+            print("Great! Have a nice day!")
         else:
             print("Sorry, I don't understand that. Please try again.")
     elif question_2 == "b" or question_2 == "B":
@@ -133,9 +141,13 @@ elif question_1 == "b" or question_1 == "B":
         if question_3 == "a" or question_3 == "A":
             print("Cool. Happy winter!!")
             print(str("Points: ") + str(points + 6))
+            enjoy = input("Did you enjoy playing?")
+            print("Great! Have a nice day!")
         elif question_3 == "b" or question_3 == "B":
             print("That's great, summer is amazing.")
             print(str("Points: ") + str(points + 6))
+            enjoy = input("Did you enjoy playing?")
+            print("Great! Have a nice day!")
         else:
             print("Sorry, I don't understand that. Please try again.")
     else:
