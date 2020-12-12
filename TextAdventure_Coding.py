@@ -9,7 +9,13 @@ print("What type of colors do you like?")
 cool = "a) I like cool colors!\n"
 warm = "b) I like warm colors!"
 print(str(cool) + str(warm))
-question_1 = input("a or b: ")
+#question_1 = input("a or b: ")
+while True:
+    question_1 = input("a or b: ")
+    if question_1.lower() not in ('a', 'b'):
+        print("WRONG CHOICE")
+    else:
+        break
 if question_1 == "a" or question_1 == "A":
     print("That's great!")
     print("This is Bob: ◉_◉ . He likes cool colors too.")
@@ -30,11 +36,11 @@ if question_1 == "a" or question_1 == "A":
         print(str(winter) + str(summer))
         question_3 = input("a or b:")
         if question_3 == "a" or question_3 == "A":
-             print("Cool. Happy winter!!")
-             print(str("Points: ") + str(points + 4))
+            print("Cool. Happy winter!!")
+            print(str("Points: ") + str(points + 4))
         elif question_3 == "b" or question_3 == "B":
-             print("That's great, summer is amazing.")
-             print(str("Points: ") + str(points) + 4)
+            print("That's great, summer is amazing.")
+            print(str("Points: ") + str(points + 4))
         else:
             print("Invalid response.")
     elif question_2 == "b" or question_2 == "B":
