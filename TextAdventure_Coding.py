@@ -9,11 +9,10 @@ print("What type of colors do you like?")
 cool = "a) I like cool colors!\n"
 warm = "b) I like warm colors!"
 print(str(cool) + str(warm))
-#question_1 = input("a or b: ")
 while True:
     question_1 = input("a or b: ")
     if question_1.lower() not in ('a', 'b'):
-        print("WRONG CHOICE")
+        print("Sorry, I don't understand that. Please try again.")
     else:
         break
 if question_1 == "a" or question_1 == "A":
@@ -25,7 +24,12 @@ if question_1 == "a" or question_1 == "A":
     no_thx = "a) No thanks. I don't really feel like meeting Bob's buddies.\n"
     character = "b) Sure, I would love to meet more characters!"
     print(str(no_thx) + str(character))
-    question_2 = input("a or b:")
+    while True:
+        question_2 = input("a or b: ")
+        if question_2.lower() not in ('a', 'b'):
+            print("Sorry, I don't understand that. Please try again.")
+        else:
+            break
     if question_2 == "a" or question_2 == "A":
         print(question_2)
         print("Aw, maybe next time.")
@@ -34,7 +38,12 @@ if question_1 == "a" or question_1 == "A":
         winter = "a) I like the winter months. \n"
         summer = "b) I like the summer months"
         print(str(winter) + str(summer))
-        question_3 = input("a or b:")
+        while True:
+            question_3 = input("a or b: ")
+            if question_3.lower() not in ('a', 'b'):
+                print("Sorry, I don't understand that. Please try again.")
+            else:
+                break
         if question_3 == "a" or question_3 == "A":
             print("Cool. Happy winter!!")
             print(str("Points: ") + str(points + 4))
@@ -42,7 +51,7 @@ if question_1 == "a" or question_1 == "A":
             print("That's great, summer is amazing.")
             print(str("Points: ") + str(points + 4))
         else:
-            print("Invalid response.")
+            print("Sorry, I don't understand that. Please try again.")
     elif question_2 == "b" or question_2 == "B":
         print("Yay!!")
         print("This is Bob's friend Freddie: (~˘▾˘)~")
@@ -53,7 +62,12 @@ if question_1 == "a" or question_1 == "A":
         summer = "b) I like the summer months."
         print("Do you prefer the summer or winter months?")
         print(str(winter) + str(summer))
-        question_3 = input("a or b:")
+        while True:
+            question_3 = input("a or b: ")
+            if question_3.lower() not in ('a', 'b'):
+                print("Sorry, I don't understand that. Please try again.")
+            else:
+                break
         if question_3 == "a" or question_3 == "A":
             print("Cool. Happy winter!!")
             print(str("Points: ") + str(points + 5))
@@ -61,9 +75,9 @@ if question_1 == "a" or question_1 == "A":
             print("That's great, summer is amazing.")
             print(str("Points: ") + str(points + 5))
         else:
-            print("Invalid response.")
+            print("Sorry, I don't understand that. Please try again.")
     else:
-        print("Invalid response.")
+        print("Sorry, I don't understand that. Please try again.")
 elif question_1 == "b" or question_1 == "B":
     no = "a) No thanks. I don't really feel like meeting Sally's buddies.\n"
     yes = "b) Sure, I would love to meet more people like Sally!"
@@ -73,7 +87,12 @@ elif question_1 == "b" or question_1 == "B":
     print(str("Points: ") + str(points + 2))
     print("Do you want to meet more characters like Sally?")
     print(str(no) + str(yes))
-    question_2 = input("a or b:")
+    while True:
+        question_2 = input("a or b: ")
+        if question_2.lower() not in ('a', 'b'):
+            print("Sorry, I don't understand that. Please try again.")
+        else:
+            break
     if question_2 == "a" or question_2 == "A":
         print("Aww, maybe next time.")
         print(str("Points: ") + str(points + 3))
@@ -81,7 +100,12 @@ elif question_1 == "b" or question_1 == "B":
         winter = "a) I like the winter months. \n"
         summer = "b) I like the summer months."
         print(str(winter) + str(summer))
-        question_3 = input("a or b:")
+        while True:
+            question_3 = input("a or b: ")
+            if question_3.lower() not in ('a', 'b'):
+                print("Sorry, I don't understand that. Please try again.")
+            else:
+                break
         if question_3 == "a" or question_3 == "A":
             print("Cool. Happy winter!!")
             print(str("Points: ") + str(points + 4))
@@ -89,7 +113,7 @@ elif question_1 == "b" or question_1 == "B":
             print("That's great, summer is amazing.")
             print(str("Points: ") + str(points + 4))
         else:
-            print("Invalid response.")
+            print("Sorry, I don't understand that. Please try again.")
     elif question_2 == "b" or question_2 == "B":
         print("Yay!!")
         print("This is Sally's sister Marcy: (◕‿◕✿) .")
@@ -100,7 +124,12 @@ elif question_1 == "b" or question_1 == "B":
         winter = "a) I like the winter months. \n"
         summer = "b) I like the summer months"
         print(str(winter) + str(summer))
-        question_3 = input("a or b:")
+        while True:
+            question_3 = input("a or b: ")
+            if question_3.lower() not in ('a', 'b'):
+                print("Sorry, I don't understand that. Please try again.")
+            else:
+                break
         if question_3 == "a" or question_3 == "A":
             print("Cool. Happy winter!!")
             print(str("Points: ") + str(points + 6))
@@ -108,8 +137,8 @@ elif question_1 == "b" or question_1 == "B":
             print("That's great, summer is amazing.")
             print(str("Points: ") + str(points + 6))
         else:
-            print("Invalid response.")
+            print("Sorry, I don't understand that. Please try again.")
     else:
-        print("Invalid response.")
+        print("Sorry, I don't understand that. Please try again.")
 else:
-    print("Invalid response.")
+    print("Sorry, I don't understand that. Please try again.")
